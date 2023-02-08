@@ -1,9 +1,0 @@
-x = int(input("Enter Number: "))
-i = 0
-sum = 0
-
-while i <= x:
-  sum += i
-  i += 1
-
-print("Sum: "+ str(sum))
