@@ -21,7 +21,10 @@ def taxCompute(money):
 income = float(input("Enter your monthly income: "))
 annual = income * 12
 taxRate = taxCompute(annual)
+monthlyTax = taxRate/12
+
 print("========== RECEIPT ==========")
 print("Monthly Income: {}" .format(income))
 print("Annual Income: {}" .format(annual))
-print("Tax Rate: {}" .format(taxRate))
+print("Annual Tax Rate: {}" .format(taxRate))
+print("Monthly Tax Rate: {}" .format(monthlyTax))
