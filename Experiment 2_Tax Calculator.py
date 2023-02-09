@@ -3,7 +3,7 @@ def taxCompute(money):
     if money <= 250000:
         pay = money
     elif money > 250000 and money <= 400000:
-        pay = money * 0.15
+        pay = (money - 250000) * 0.15
     elif money > 400000 and money <= 800000:
         pay = 22500 + (money - 400000) * 0.2
     elif money > 800000 and money <= 2000000:
