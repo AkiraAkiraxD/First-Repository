@@ -79,6 +79,7 @@ def start():
         print(slide_1)
         temp+=1
 
+input("Press Enter to continue...")
 start()
 animation()
 print("Testing Commit From VSCode")
