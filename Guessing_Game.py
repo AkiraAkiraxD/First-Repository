@@ -39,8 +39,9 @@ gameEndCheck()
 """
 ========== LOGS ==========
 Sir I used functions like start(), highLow(), and gameEndCheck()
-because it would be eaisier to read the code that way rather than
-compressing all the code into a single while loop xD
+because it would be easier to read the code that way rather than
+compressing all the code into a single while loop xD.
+I also added "try except ValueError" statement to prevent
+users to input non integers.
 ==========================
-
 """
